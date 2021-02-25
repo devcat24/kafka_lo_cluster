@@ -1,5 +1,6 @@
 data/*
 kafka_2.13-2.6.1/logs/*
+cmak-3.0.0.5/logs/*
 
 target/
 !.mvn/wrapper/maven-wrapper.jar

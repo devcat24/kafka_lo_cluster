@@ -1,0 +1,44 @@
+data/*
+kafka_2.13-2.6.1/logs/*
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+.attach_pid*
+logs/*
+
+### Embedded ActiveMQ Data ###
+activemq-data/
+
+### escaping security related information in application.properties ###
+# use -> 'run.sh / pkg.sh / escape_prop.sh' to generate password escaped 'application.properties'
+# src/main/resources/application.properties 
+# dev_conf/
+
+
+HELP.md
+/target/
+!.mvn/wrapper/maven-wrapper.jar
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/build/
+

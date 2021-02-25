@@ -1,4 +1,4 @@
 server.1=127.0.0.1:28881:38881:participant
 server.2=127.0.0.1:28882:38882:participant
 server.3=127.0.0.1:28883:38883:participant
-version=600000000
+version=700000000
